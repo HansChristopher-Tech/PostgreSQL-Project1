@@ -1,0 +1,3 @@
+CREATE DATABASE Practice_1;
+
+-- DROP DATABASE IF EXISTS sql_course;
