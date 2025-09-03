@@ -21,7 +21,9 @@ INNER JOIN  skills_dim as only_skills
 WHERE
     job_title_short = 'Data Analyst'
     AND
-    job_work_from_home = TRUE
+    job_work_from_home = FALSE
+    AND
+    job_location LIKE '%Philippines%'
 GROUP BY
     skills
 ORDER BY
